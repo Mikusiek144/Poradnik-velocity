@@ -7,3 +7,5 @@ Aby Velocity działało musisz mieć conajmniej 3 podserwery, które mają zains
 Velocity Pobieramy ze strony https://papermc.io/downloads wybieramy Silnik Velocity i pobieramy **ZAWSZE** najnowsza wersje.
 
 ### Wgranie Velocity na serwer Minecraft
+
+Wgrywamy plik .jar do głównego katalogu serwera. W przypadku większości hostingów wystarczy nazwać plik ten server.jar, jeśli zmieniałeś tą nazwę lub masz localhosta i w pliku startowym użyłeś innej nazwy to właśnie na tą nazwę musisz zmienić.
