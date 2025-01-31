@@ -24,7 +24,8 @@ Pozwala zmienić port serwera proxy oraz wybrać jeden z adresów IP w przypadku
 
 Pozwala zmienić tekst wyświetlający się w liście serwerów.
 
-**show-max-players = 500** 
+**show-max-players = 500**
+
 Maksymalna ilość slotów.
 
 **online-mode = true**
