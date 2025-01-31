@@ -15,17 +15,31 @@ Wgrywamy plik .jar do głównego katalogu serwera. W przypadku większości host
 Aby zaczac konfiguracje zrestartuj serwer i wejdz w plik velocity.toml
 
 Krótkie objaśnienie do czego służa dane funkcje 
-bind = "0.0.0.0:25577"
+
+**bind = "0.0.0.0:25577"**  
+
 Pozwala zmienić port serwera proxy oraz wybrać jeden z adresów IP w przypadku, gdy maszyna posiada ich więcej niż jeden.
-motd = "<#09add3>A Velocity Server"
+
+**motd = "<#09add3>A Velocity Server"** 
+
 Pozwala zmienić tekst wyświetlający się w liście serwerów.
-show-max-players = 500
+
+**show-max-players = 500** 
 Maksymalna ilość slotów.
-online-mode = true
-Opcja ta sama co w przypadku serwera Minecraft. Gdy opcja jest na false gracz nie posiadający kupionej gry może wejść a gdy jest na true nie może. 
+
+**online-mode = true**
+
+Opcja ta sama co w przypadku serwera Minecraft. Gdy opcja jest na false gracz nie posiadający kupionej gry może wejść a gdy jest na true nie może.
+
 player-info-forwarding-mode = "NONE"
+
 Pozwala wybrać tryb przesyłu UUID oraz adresów IP dołączających graczy między serwerem proxy a serwerem Minecraft.
-"[servers]"
+
+**[servers]** 
 Tutaj możesz dodać swoje serwery Minecraft.
+
+**[forced-hosts]**  
+
+Możesz tutaj ustawić połączenia pomijające serwer lobby zależnie od podanej subdomeny. Wymagane są odpowiednie ustawienia domeny. Jeśli z tego nie korzystasz, usuń całą zawartość tej opcji.
 
 ### Dodawanie podserwerów
