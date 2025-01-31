@@ -58,6 +58,7 @@ Jeśli w pliku server.properties mamy ustawiony **"online-mode = true"** Musimy 
 W opcji **player-info-forwarding-mode** = "NONE"* Można ustawić:
 
  **"BUNGEEGUARD"** - Gdy serwer wpuszcza graczy z wersji starszej niż "1.13"
+ 
  **"MODERN"** - Gdy serwer wpuszcza graczy z wersji nowszej niż "1.13"
 
  Ja osobiście zalecam **modern** ze względu na to że bardzo mało serwerów stoi na wersji np 1.12.2.
