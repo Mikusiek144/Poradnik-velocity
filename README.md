@@ -55,21 +55,21 @@ Port serwera musimy umieścic w kategori **"bind = "0.0.0.0:25577"** podmieniamy
 
 Jeśli w pliku server.properties mamy ustawiony **"online-mode = true"** Musimy taki sam ustawić w pliku velocity.toml. Gdy mamy w server.properties ustawione na false musimy także ustawić na false.
 
-W opcji **player-info-forwarding-mode = "NONE"* Można ustawić:
+W opcji **player-info-forwarding-mode** = "NONE"* Można ustawić:
 
- "BUNGEEGUARD" - Gdy serwer wpuszcza graczy z wersji starszej niż "1.13"
- "MODERN" - Gdy serwer wpuszcza graczy z wersji nowszej niż "1.13"
+ **"BUNGEEGUARD"** - Gdy serwer wpuszcza graczy z wersji starszej niż "1.13"
+ **"MODERN"** - Gdy serwer wpuszcza graczy z wersji nowszej niż "1.13"
 
  Ja osobiście zalecam **modern** ze względu na to że bardzo mało serwerów stoi na wersji np 1.12.2.
  
 Kolejny krok konfiguracji to ustawienie wymaganych opcji 
 
  **Dla serwerów wpuszczających graczy z wersji 1.13 i wyżej**  
-1. W velocity.toml ustaw 'player-info-forwarding-mode' na "MODERN"
+1. W velocity.toml ustaw **'player-info-forwarding-mode'** na "MODERN"
 2. W folderze config wejdź w paper-global.yml w sekcji 'velocity-support' ustaw 'enabled: true' i 'online-mode: true lub false (zależnie jak się ustawiło w server.properties)' oraz wpisz klucz znajdujący się w pliku forwarding.secret w opcji 'secret'.
 
 **Dla serwerów wpuszczających graczy z wersji starszych niż 1.13**  
-1. W velocity.toml ustaw 'player-info-forwarding-mode' na "BUNGEEGUARD".
+1. W velocity.toml ustaw **'player-info-forwarding-mode'** na "BUNGEEGUARD".
 2. W spigot.yml ustaw 'bungeecord' na 'true'.
 3. Zainstaluj plugin https://www.spigotmc.org/resources/bungeeguard.79601/ na serwerach Minecraft.
 4. W configu BungeeGuarda wpisz klucz znajdujący się w pliku forwarding.secret w opcji 'allowed-tokens'
