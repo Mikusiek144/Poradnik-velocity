@@ -80,7 +80,7 @@ To tyle jeśli wszystko podłączyłeś zgodnie z poradnikiem sieć powinna dzia
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-[Poradnik wzorowany był na innym poradniku od twórcy Helios 3991 (https://github.com/Helios3991/konfiguracja-serwera-proxy/tree/main) robiąc ten poradnik miałem na celu przetłumaczyć z profesjonalizmu na prosty język, z którym raczej każdy sobie poradzi]
+Poradnik wzorowany był na innym poradniku od twórcy Helios 3991 (https://github.com/Helios3991/konfiguracja-serwera-proxy/tree/main) robiąc ten poradnik miałem na celu przetłumaczyć z profesjonalizmu na prosty język, z którym raczej każdy sobie poradzi
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
